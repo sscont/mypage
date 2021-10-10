@@ -6,22 +6,23 @@
 </p>
 <p>
 ２．身分をチェックしてください
-　□　教員、□　職員、□　学生
 <input type="radio" name="class" value="tchr">教員</input>
 <input type="radio" name="class" value="wrkr">職員</input>
 <input type="radio" name="class" value="stdnt">学生</input>
 </p>
 <p>
 ３．所属部局を以下から選んでください。
-　・法経学部
-　・医学部
-　・理学部
-　・工学部
+<select name ="department">
+  <option value="1">法経学部</option>
+  <option value="2">医学部</option>
+  <option value="3">理学部</option>
+  <option value="4">工学部</option>
+</select>
 </p>
 ４．自由に記述してください。
-
+<textarea name="textbox">（ここに事由に記載）</textarea>
 <p>
-[確定]
+<input type="submit" value="確定" />
 </p>
 
 </form>
